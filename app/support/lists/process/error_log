@@ -1,0 +1,67 @@
+[11-Feb-2025 00:31:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'T_MIN_TIME_START' doesn't have a default value in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/insertSchedule.php:37
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/insertSchedule.php(37): mysqli->query('INSERT INTO cod...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/insertSchedule.php on line 37
+[11-Feb-2025 23:41:36 UTC] PHP Warning:  Undefined array key "sesion" in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 18
+[11-Feb-2025 23:41:36 UTC] PHP Warning:  Undefined variable $sesionCode in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:41:36 UTC] PHP Warning:  Undefined variable $sesionCity in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:41:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'CODE_SESION' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php:34
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php(34): mysqli->query('UPDATE code_ip ...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 34
+[11-Feb-2025 23:41:46 UTC] PHP Warning:  Undefined array key "sesion" in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 18
+[11-Feb-2025 23:41:46 UTC] PHP Warning:  Undefined variable $sesionCode in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:41:46 UTC] PHP Warning:  Undefined variable $sesionCity in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:41:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'CODE_SESION' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php:34
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php(34): mysqli->query('UPDATE code_ip ...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 34
+[11-Feb-2025 23:44:25 UTC] PHP Warning:  Undefined array key "sesion" in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 18
+[11-Feb-2025 23:44:25 UTC] PHP Warning:  Undefined variable $sesionCode in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:44:25 UTC] PHP Warning:  Undefined variable $sesionCity in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:44:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'CODE_SESION' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php:35
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php(35): mysqli->query('UPDATE code_ip ...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 35
+[11-Feb-2025 23:49:09 UTC] PHP Warning:  Undefined variable $sesionCode in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:49:09 UTC] PHP Warning:  Undefined variable $sesionCity in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:49:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'CODE_SESION' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php:35
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php(35): mysqli->query('UPDATE code_ip ...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 35
+[11-Feb-2025 23:51:10 UTC] PHP Warning:  Undefined array key "sesion" in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 18
+[11-Feb-2025 23:51:10 UTC] PHP Warning:  Undefined variable $sesionCode in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:51:10 UTC] PHP Warning:  Undefined variable $sesionCity in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:51:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'CODE_SESION' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php:35
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php(35): mysqli->query('UPDATE code_ip ...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 35
+[11-Feb-2025 23:53:22 UTC] PHP Warning:  Undefined array key "sesion" in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 18
+[11-Feb-2025 23:53:22 UTC] PHP Warning:  Undefined variable $sesionCode in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:53:22 UTC] PHP Warning:  Undefined variable $sesionCity in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 33
+[11-Feb-2025 23:53:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'CODE_SESION' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php:35
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php(35): mysqli->query('UPDATE code_ip ...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/updateIP.php on line 35
+[12-Feb-2025 00:02:12 UTC] PHP Warning:  require(../../../lib/vendor/autoload.php): Failed to open stream: No such file or directory in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/downloadVacations.php on line 3
+[12-Feb-2025 00:02:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../../lib/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/downloadVacations.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/downloadVacations.php on line 3
+[12-Feb-2025 00:04:03 UTC] PHP Warning:  require(../../logic/conn.php): Failed to open stream: No such file or directory in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/downloadVacations.php on line 4
+[12-Feb-2025 00:04:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../../logic/conn.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/downloadVacations.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/lists/process/downloadVacations.php on line 4
+[12-Feb-2025 00:05:05 UTC] PHP Deprecated:  Return type of PhpOffice\PhpSpreadsheet\Worksheet\Iterator::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Iterator.php on line 55
+[12-Feb-2025 00:05:05 UTC] PHP Deprecated:  Return type of PhpOffice\PhpSpreadsheet\Worksheet\Iterator::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Iterator.php on line 73
+[12-Feb-2025 00:05:05 UTC] PHP Deprecated:  Return type of PhpOffice\PhpSpreadsheet\Worksheet\Iterator::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Iterator.php on line 65
+[12-Feb-2025 00:05:05 UTC] PHP Deprecated:  Return type of PhpOffice\PhpSpreadsheet\Worksheet\Iterator::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Iterator.php on line 83
+[12-Feb-2025 00:05:05 UTC] PHP Deprecated:  Return type of PhpOffice\PhpSpreadsheet\Worksheet\Iterator::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Iterator.php on line 45
