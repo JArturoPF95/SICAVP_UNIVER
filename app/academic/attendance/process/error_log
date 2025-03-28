@@ -1,0 +1,15 @@
+[04-Mar-2025 13:01:18 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'JUSTIFY' doesn't have a default value in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php:143
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php(143): mysqli->query('INSERT INTO aca...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php on line 143
+[04-Mar-2025 13:19:59 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'JUSTIFY' doesn't have a default value in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php:145
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php(145): mysqli->query('INSERT INTO aca...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php on line 145
+[04-Mar-2025 16:06:36 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'TINC' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php:145
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php(145): mysqli->query('INSERT INTO aca...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/attendance/process/check.php on line 145

@@ -1,0 +1,239 @@
+[10-Feb-2025 23:47:20 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Security/XmlScanner.php on line 67
+[10-Feb-2025 23:47:20 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Security/XmlScanner.php on line 78
+[10-Feb-2025 23:50:38 UTC] PHP Warning:  Undefined variable $level in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 81
+[10-Feb-2025 23:50:38 UTC] PHP Warning:  Undefined variable $payroll in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 83
+[10-Feb-2025 23:50:38 UTC] PHP Warning:  Undefined variable $code in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 83
+[10-Feb-2025 23:50:51 UTC] PHP Warning:  Undefined variable $level in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 81
+[10-Feb-2025 23:50:51 UTC] PHP Warning:  Undefined variable $payroll in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 83
+[10-Feb-2025 23:50:51 UTC] PHP Warning:  Undefined variable $code in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 83
+[11-Feb-2025 22:16:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'univer_sicavp.biometrictimeclock' doesn't exist in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php:37
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php(37): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php on line 37
+[11-Feb-2025 22:26:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'univer_sicavp.biometrictimeclock' doesn't exist in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php:37
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php(37): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php on line 37
+[11-Feb-2025 22:48:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'univer_sicavp.biometrictimeclock' doesn't exist in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php:61
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php(61): mysqli->query('(SELECT ID_BIOU...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php on line 61
+[11-Feb-2025 22:54:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'univer_sicavp.biometrictimeclock' doesn't exist in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php:61
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php(61): mysqli->query('(SELECT ID_BIOU...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php on line 61
+[11-Feb-2025 22:59:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'COMMENTS' doesn't have a default value in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php:142
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php(142): mysqli->query('INSERT INTO adm...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php on line 142
+[11-Feb-2025 23:01:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'COMMENTS' doesn't have a default value in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php:142
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php(142): mysqli->query('INSERT INTO adm...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php on line 142
+[11-Feb-2025 23:03:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'COMMENT' in 'field list' in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php:142
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php(142): mysqli->query('INSERT INTO adm...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php on line 142
+[11-Feb-2025 23:07:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'COMMENT' in 'field list' in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php:142
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php(142): mysqli->query('INSERT INTO adm...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/update_attendance.php on line 142
+[17-Feb-2025 21:15:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[17-Feb-2025 21:16:54 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Security/XmlScanner.php on line 67
+[17-Feb-2025 21:16:55 UTC] PHP Deprecated:  Function libxml_disable_entity_loader() is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/lib/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Security/XmlScanner.php on line 78
+[25-Feb-2025 15:25:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[25-Feb-2025 15:30:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[25-Feb-2025 15:33:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:50:57 UTC] PHP Warning:  Undefined array key 9 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:50:57 UTC] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:50:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:51:05 UTC] PHP Warning:  Undefined array key 9 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:51:05 UTC] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:51:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:53:30 UTC] PHP Warning:  Undefined array key 9 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:53:30 UTC] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[26-Feb-2025 15:53:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[28-Feb-2025 16:20:14 UTC] PHP Warning:  Undefined variable $level in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 81
+[28-Feb-2025 16:20:14 UTC] PHP Warning:  Undefined variable $payroll in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 83
+[28-Feb-2025 16:20:14 UTC] PHP Warning:  Undefined variable $code in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/user_update.php on line 83
+[06-Mar-2025 00:06:38 UTC] PHP Warning:  Undefined array key 9 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[06-Mar-2025 00:06:38 UTC] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[06-Mar-2025 00:06:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[06-Mar-2025 00:09:37 UTC] PHP Warning:  Undefined array key 9 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[06-Mar-2025 00:09:37 UTC] PHP Deprecated:  DateTime::createFromFormat(): Passing null to parameter #2 ($datetime) of type string is deprecated in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[06-Mar-2025 00:09:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on bool in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/loadBiometricTime.php on line 77
+[07-Mar-2025 18:58:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'POSITION_SUEPRVISOR' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:70
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(70): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 70
+[07-Mar-2025 18:59:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'POSITION_SUEPRVISOR' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:70
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(70): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 70
+[07-Mar-2025 19:01:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'POSITION_SUEPRVISOR' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:70
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(70): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 70
+[07-Mar-2025 19:02:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'POSITION_SUEPRVISOR' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:70
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(70): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 70
+[07-Mar-2025 19:03:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'POSITION_SUEPRVISOR' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:71
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(71): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 71
+[07-Mar-2025 22:00:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'CITY' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:109
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(109): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 109
+[07-Mar-2025 22:02:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'CITY' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[07-Mar-2025 22:04:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column 'SEPARATION_DATE' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[07-Mar-2025 22:07:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column 'CONTRACT_END' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[07-Mar-2025 22:50:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect date value: '' for column 'CONTRACT_END' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[07-Mar-2025 22:53:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[07-Mar-2025 22:54:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[07-Mar-2025 22:55:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''USER SUPERVISOR TEST NG'
+                                        ,'SOPUNING01',' at line 11 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[07-Mar-2025 22:56:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''USER SUPERVISOR TEST NG'
+                                        ,'SOPUNING01',' at line 11 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[07-Mar-2025 23:02:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''USER SUPERVISOR TEST NG'
+                                        ,'SOPUNING01',' at line 11 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php:110
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php(110): mysqli->query('INSERT INTO emp...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/newEmployed.php on line 110
+[25-Mar-2025 19:38:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID_AUX' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[25-Mar-2025 19:38:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID_AUX' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[28-Mar-2025 17:17:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID_AUX' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[28-Mar-2025 17:32:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID_AUX' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[28-Mar-2025 18:35:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID_AUX' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[28-Mar-2025 18:42:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID_AUX' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[28-Mar-2025 18:44:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '' for column 'SUPERVISOR_ID_AUX' at row 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[28-Mar-2025 18:47:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MODIFIED_BY='SOPUNING01',MODIFIED_DATE=NOW()
+                                   ' at line 7 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[28-Mar-2025 18:47:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MODIFIED_BY='SOPUNING01',MODIFIED_DATE=NOW()
+                                   ' at line 7 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:76
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(76): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 76
+[28-Mar-2025 19:03:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'MODIFIED_BY='SOPUNING01',MODIFIED_DATE=NOW()
+                                   ' at line 7 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:83
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(83): mysqli->query('UPDATE employed...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 83
+[28-Mar-2025 19:10:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0000001''' at line 1 in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php:81
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php(81): mysqli->query('SELECT ID_NOM, ...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/support/administrative/updEmployed.php on line 81

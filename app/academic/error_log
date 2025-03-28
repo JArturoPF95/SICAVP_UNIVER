@@ -1,0 +1,42 @@
+[04-Mar-2025 13:59:22 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[04-Mar-2025 14:03:54 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[04-Mar-2025 14:04:32 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[04-Mar-2025 15:32:42 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[04-Mar-2025 15:38:26 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[04-Mar-2025 15:38:53 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[04-Mar-2025 15:41:58 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[04-Mar-2025 15:42:40 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[04-Mar-2025 15:42:42 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 241
+[05-Mar-2025 16:09:45 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''002' at line 4 in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php:313
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php(313): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 313
+[05-Mar-2025 16:09:49 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''002' at line 4 in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php:313
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php(313): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 313
+[05-Mar-2025 16:09:57 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''002' at line 4 in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php:313
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php(313): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 313
+[05-Mar-2025 16:31:06 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 243
+[05-Mar-2025 16:31:41 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 243
+[05-Mar-2025 16:33:10 America/Mexico_City] PHP Warning:  Undefined variable $check_event_classID in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/last_today.php on line 243
+[05-Mar-2025 17:54:55 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:54:55 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:54:55 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:55:09 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:55:09 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:55:09 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:16 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:16 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:16 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:24 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:24 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:24 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:58 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:58 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206
+[05-Mar-2025 17:56:58 America/Mexico_City] PHP Warning:  Undefined array key "ID_SUSTITUTION" in /home/univer/public_html/sicavp.univer-gdl.info/app/academic/teachers.php on line 206

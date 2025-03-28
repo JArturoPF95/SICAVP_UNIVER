@@ -1,0 +1,17 @@
+[11-Feb-2025 16:38:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'univer_sicavp.vacation_anticipated' doesn't exist in /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/process/request_days.php:64
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/process/request_days.php(64): mysqli->query('SELECT DISTINCT...')
+#1 /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/request_days.php(127): require_once('/home/univer/pu...')
+#2 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/process/request_days.php on line 64
+[11-Feb-2025 16:38:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'univer_sicavp.vacation_anticipated' doesn't exist in /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/process/request_days.php:64
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/process/request_days.php(64): mysqli->query('SELECT DISTINCT...')
+#1 /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/request_days.php(127): require_once('/home/univer/pu...')
+#2 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/process/request_days.php on line 64
+[11-Feb-2025 17:04:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'COMMENTS' doesn't have a default value in /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/request_days.php:92
+Stack trace:
+#0 /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/request_days.php(92): mysqli->query('INSERT INTO vac...')
+#1 {main}
+  thrown in /home/univer/public_html/sicavp.univer-gdl.info/app/administrative/vacations/request_days.php on line 92
