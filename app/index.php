@@ -1,10 +1,10 @@
 <?php
 require 'logic/conn.php';
 require_once 'logic/session/access_denied.php';
-
 session_start();
+
 if (!isset($_SESSION['usuario'])) {
-    header('Location: ../index.php');
+    header('Location: ../../index.php');
     exit();
 } else {
     $user_name = $_SESSION['user_name'];
@@ -150,5 +150,4 @@ $flagClinic = '0'; //Bandera para validar materias Campos clínicos o presencial
         </div>
     </div>
 </body>
-
 </html>

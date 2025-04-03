@@ -105,6 +105,7 @@ $result_users = $mysqli->query($sqlUsers);
                         <tr>
                             <th scope="col" class="text-white">Usuario</th>
                             <th scope="col" class="text-white">Nombre</th>
+                            <th scope="col" class="text-white">Estatus Confirmación <br> Correo</th>
                             <th scope="col" class="text-white"></th>
                         </tr>
                     </thead>
@@ -120,6 +121,7 @@ $result_users = $mysqli->query($sqlUsers);
                             <tr class="<?php echo $bg ?>">
                                 <td><?php echo $rowUsers['SICAVP_USER'] ?></td>
                                 <td><?php echo $rowUsers['NAME_DOC'] ?></td>
+                                <td><?php if( $rowUsers['FLAG_CONFIRM'] == '1') { echo 'Correo Confirmado'; } else { echo 'Correo sin Confirmar'; }?></td>
                                 <td>
                                     <div class="btn-group dropend">
                                         <!--Droopdown de opciones-->

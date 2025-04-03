@@ -16,9 +16,7 @@ $device = $_SERVER['HTTP_USER_AGENT'];
 
 if (isset($_POST['so'])) {
     $_SESSION['sistema_operativo'] = $_POST['so'];
-} 
-// Si la sesión aún no tiene un valor, ponemos "Desconocido"
-if (!isset($_SESSION['sistema_operativo'])) {
+} else {
     $_SESSION['sistema_operativo'] = 'Desconocido';
 }
 

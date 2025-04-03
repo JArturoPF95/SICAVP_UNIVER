@@ -35,7 +35,7 @@ if ($flagConfirm == '1') {
         $return_icon = 'error';
     }
 } else {
-    $sqlUpdatePass = "UPDATE users SET PASSWORD = '', PASS_TEMP = '$idUser', MAIL = '', MODIFIED_BY = '$user_active', MODIFIED_DATE = NOW()  WHERE SICAVP_USER = '$idUser'";
+    $sqlUpdatePass = "UPDATE users SET PASSWORD = '', PASS_TEMP = '$idUser', EMAIL = '', MODIFIED_BY = '$user_active', MODIFIED_DATE = NOW()  WHERE SICAVP_USER = '$idUser'";
     if ($mysqli->query($sqlUpdatePass) === TRUE) {
         $return_message = 'Acceso reseteado con éxito. Recuerda que la contraseña es la misma que el usuario';
         $return_icon = 'success';

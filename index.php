@@ -51,7 +51,7 @@ if (isset($_GET['error'])) {
     <script src="static/js/popper.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="static/css/bootstrap.css">
-    <link rel="stylesheet" href="static/css/styles/upd_pass.css">
+
     <style>
         /**
         footer {
@@ -61,7 +61,8 @@ if (isset($_GET['error'])) {
         }
         */
 
-        html, body {
+        html,
+        body {
             height: 100%;
             margin: 0;
         }
@@ -73,7 +74,8 @@ if (isset($_GET['error'])) {
         }
 
         footer {
-            margin-top: 200px; /* Margen inferior */
+            margin-top: 200px;
+            /* Margen inferior */
             width: 100%;
         }
     </style>
@@ -107,7 +109,7 @@ if (isset($_GET['error'])) {
                     </div>
                     <div class="mb-3 float-start" style="width: 100%">
                         <label for="inputPassword2" class="form-label my-2 text-light">Contraseña</label>
-                        <input type="password" class="form-control my-2" id="inputPassword2" name="password" placeholder="*********" required min = "6">
+                        <input type="password" class="form-control my-2" id="inputPassword2" name="password" placeholder="*********" required min="6">
                     </div>
                     <button type="submit" class="btn btn-dark my-3  fs-6" style="width: 100%">Acceder</button>
 
@@ -132,6 +134,48 @@ if (isset($_GET['error'])) {
             &copy; 2025 Dirección de Tecnologías de la Información
         </p>
     </footer>
+
+    <script>
+        function detectarSO() {
+            let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            let sistemaOperativo = "Desconocido";
+
+            if (/windows phone/i.test(userAgent)) {
+                sistemaOperativo = "Windows Phone";
+            } else if (/android/i.test(userAgent)) {
+                sistemaOperativo = "Android";
+            } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                sistemaOperativo = "iOS";
+            } else if (/Win/i.test(userAgent)) {
+                sistemaOperativo = "Windows";
+            } else if (/Mac/i.test(userAgent)) {
+                sistemaOperativo = "MacOS";
+            } else if (/Linux/i.test(userAgent)) {
+                sistemaOperativo = "Linux";
+            }
+
+            return sistemaOperativo;
+        }
+
+        // Mostrar en consola
+        console.log("Sistema Operativo Detectado:", detectarSO());
+        document.addEventListener("DOMContentLoaded", function() {
+            let sistemaOperativo = detectarSO();
+
+            console.log("Sistema Operativo:", sistemaOperativo);
+
+            fetch("app/logic/session/session.php", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    body: "so=" + encodeURIComponent(sistemaOperativo)
+                })
+                .then(response => response.text())
+                .then(data => console.log("Respuesta del servidor:", data))
+                .catch(error => console.error("Error en fetch:", error));
+        });
+    </script>
 </body>
 
 </html>

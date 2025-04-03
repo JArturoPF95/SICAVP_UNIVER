@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if (!isset($_SESSION['usuario'])) {
     header('Location: ../../index.php');
     exit();
@@ -8,6 +9,7 @@ if (!isset($_SESSION['usuario'])) {
     $user_active = $_SESSION['usuario'];
     $user_payroll = $_SESSION['payroll'];
     $user_access = $_SESSION['access_lev'];
+    $user_so = $_SESSION['sistema_operativo'];
 }
 
 //Obtenemos IP
@@ -36,12 +38,9 @@ $valCond = '';
 
 require_once '../logic/conn.php';
 
-/** Validamos ubicación para el acceso */
-if (preg_match('/mobile/i', $device) && !preg_match('/tablet/i', $device)) {
-    $flagClinic = '1';
-} elseif (preg_match('/tablet|ipad/i', $device)) {
-    $flagClinic = '1';
-} else {
+/** Validar el sistema operativo */
+if ($user_so == 'Windows' || $user_so == 'Mac OS X' || $user_so == 'MacOS') {
+    /** Validamos acceso por IP */
     $valMyIP = "SELECT * FROM code_ip WHERE IP = '$ip'";
     $resultValIP = $mysqli->query($valMyIP);
     if ($resultValIP->num_rows > 0) {
@@ -51,8 +50,9 @@ if (preg_match('/mobile/i', $device) && !preg_match('/tablet/i', $device)) {
     } else {
         $flagClinic = '1';
     }
+} else {
+    $flagClinic = '1';
 }
-
 require_once 'attendance/process/query.php';
 //echo $flagClinic;
 
@@ -72,7 +72,7 @@ require_once 'attendance/process/query.php';
     <link rel="stylesheet" href="../../static/css/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 
-<body>
+<body id="contenido">
 
     <?php
 
@@ -256,6 +256,19 @@ require_once 'attendance/process/query.php';
     </div>
 
     <script type="text/javascript">
+
+        function actualizarContenido() {
+            fetch("last_today.php") 
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("contenido").innerHTML = data;
+                })
+                .catch(error => console.error("Error:", error));
+        }
+
+        // Llamar a la función cada 5 segundos sin recargar la página
+        setInterval(actualizarContenido, 30000);
+
         const exampleModal = document.getElementById('exampleModal')
         if (exampleModal) {
             exampleModal.addEventListener('show.bs.modal', event => {
