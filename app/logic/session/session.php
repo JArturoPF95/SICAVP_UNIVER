@@ -128,7 +128,7 @@ if (!empty($_POST)) {
                             /** Docente sin materias campo clínico */
                         } else {
                             /** Validar el sistema operativo */
-                            if ($so == 'Windows' || $so == 'Mac OS X' || $so == 'MacOS') {
+                            if ($so == 'Windows' || $so == 'Mac OS X' || $so == 'MacOS' || $so == 'ChromeOS') {
                                 /** Validamos acceso por IP */
                                 $valMyIP = "SELECT * FROM code_ip WHERE IP = '$ip'";
                                 $resultValIP = $mysqli->query($valMyIP);
@@ -164,7 +164,7 @@ if (!empty($_POST)) {
                         /** Sino Validamos acceso por IP y dispositivo móvil */
                     } else {
                         /** Validar el sistema operativo */
-                        if ($so == 'Windows' || $so == 'Mac OS X' || $so == 'MacOS') {
+                        if ($so == 'Windows' || $so == 'Mac OS X' || $so == 'MacOS' || $so == 'ChromeOS') {
                             /** Validamos acceso por IP */
                             $valMyIP = "SELECT * FROM code_ip WHERE IP = '$ip'";
                             $resultValIP = $mysqli->query($valMyIP);

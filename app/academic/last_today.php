@@ -39,7 +39,7 @@ $valCond = '';
 require_once '../logic/conn.php';
 
 /** Validar el sistema operativo */
-if ($user_so == 'Windows' || $user_so == 'Mac OS X' || $user_so == 'MacOS') {
+if ($user_so == 'Windows' || $user_so == 'Mac OS X' || $user_so == 'MacOS' || $user_so == 'ChromeOS') {
     /** Validamos acceso por IP */
     $valMyIP = "SELECT * FROM code_ip WHERE IP = '$ip'";
     $resultValIP = $mysqli->query($valMyIP);

@@ -152,6 +152,20 @@ if (isset($_GET['error'])) {
                 sistemaOperativo = "MacOS";
             } else if (/Linux/i.test(userAgent)) {
                 sistemaOperativo = "Linux";
+            } else if (/CrOS/i.test(userAgent)) { // 🔥 ChromeOS usa "CrOS"
+                sistemaOperativo = "ChromeOS";
+            } else if (/BlackBerry/i.test(userAgent)) {
+                sistemaOperativo = "BlackBerry";
+            } else if (/BB10/i.test(userAgent)) {
+                sistemaOperativo = "BB10";
+            } else if (/IEMobile/i.test(userAgent)) {
+                sistemaOperativo = "IEMobile";
+            } else if (/Opera Mini/i.test(userAgent)) {
+                sistemaOperativo = "Opera Mini";
+            } else if (/Opera/i.test(userAgent)) {
+                sistemaOperativo = "Opera";
+            } else if (/Safari/i.test(userAgent)) {
+                sistemaOperativo = "Safari";
             }
 
             return sistemaOperativo;
