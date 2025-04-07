@@ -28,7 +28,7 @@ $time = date('H:i:s');
 $pkSesion = '0';
 $attendance = '';
 
-//echo $time;
+echo $user_sesion . ' - ' . $user_city . '<br>';
 
 $getSesionPK = "SELECT DISTINCT PK FROM code_sesion WHERE CODE_CITY = '$user_city' AND CODE_SESION_NOM = '$user_sesion'";
 $resultSesionPK = $mysqli->query($getSesionPK);

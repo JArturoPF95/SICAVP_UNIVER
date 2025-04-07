@@ -57,7 +57,7 @@ if (!isset($_SESSION['usuario'])) {
                 <div class="col-sm-4">
                     <label for="idnom" class="form-label">Usuario</label>
                     <div class="input-group has-validation">
-                        <input type="text" class="form-control" name="idnom" id="idnom" placeholder="Usuario" style="font-size: 13px;" required>
+                        <input type="text" class="form-control" name="idnom" id="idnom" placeholder="Usuario" style="font-size: 13px;" maxlength="10" required>
                         <div class="invalid-feedback">
                             Usuario es Obligatorio.
                         </div>

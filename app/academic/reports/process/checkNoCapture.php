@@ -23,7 +23,9 @@ $sendF = $_GET['sf'];
 
 $inOut = '1';
 $getTime = date('H:i:s');
-$code_day = date('W');
+$code_day = date('w');
+
+//echo $code_day;
 
 //echo $id . ' - ' . $statusNoC . ' - ' . $prog . ' - ' . $sendF . '<br>';
 
